@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from .models import Categoria, Producto  # ajusta según tus modelos
@@ -53,8 +52,6 @@ def signup_view(request):
             messages.success(request, "Cuenta creada. Inicia sesión.")
             return redirect("login")
     return render(request, "auth/signup.html")
-=======
 from django.shortcuts import render
 
 # Create your views here.
->>>>>>> 1c874fa6395b9a3ad88fc257072f9c1a4052f229

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.urls import path
 from app import views
 
@@ -37,7 +36,6 @@ urlpatterns = [
 #     path("fin/", include("app.urls_fin")),
     
 # ]
-=======
 """
 URL configuration for bar_galileo project.
 
@@ -60,4 +58,3 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
->>>>>>> 1c874fa6395b9a3ad88fc257072f9c1a4052f229
