@@ -6,7 +6,7 @@
   <h2 class="text-2xl mt-8 mb-2">{{ cat.nombre_categoria }}</h2>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {% for item in productos %}
-          {% if item.id_categoria == cat %}
+          {% if item.id_categoria.id == cat.id %}
               <article class="border p-4 rounded-xl shadow-sm">
                   <h3 class="font-medium text-lg">{{ item.nombre_producto }}</h3>
                   <p class="text-sm text-gray-600">{{ item.descripcion|default:'—' }}</p>
